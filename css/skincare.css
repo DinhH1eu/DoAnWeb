@@ -150,8 +150,6 @@ header .container .row>li:hover .sub-menu{
     color: #e83e8c;
 }
 
-<<<<<<< HEAD
-=======
 main{
     margin: 50px auto;
     width: 1100px;
@@ -266,7 +264,7 @@ main .cart button{
 main .cart button:hover{
     background-color: #d8346b;
 }
->>>>>>> 36425b9712f7b17d10d6c161fd6fc9bf6598c524
+
 
 
 

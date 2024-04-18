@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     products.forEach(product => {
       let buyBtn = product.querySelector('.next');
       let reduceBtn = product.querySelector('.prev');
-      let quantityElement = product.querySelector('.quantity');
+      let quantityElement = product.querySelector('#quantity');
   
       buyBtn.addEventListener('click', () => {
         handleBuyClick(quantityElement);

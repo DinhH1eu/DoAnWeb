@@ -76,6 +76,22 @@ li{
 .box-right-item{
     display: flex;
 }
+#box-right{
+    position: relative;
+}
+.box-right-item>span{
+    position: absolute;
+    top: -10px;
+    right: -1px;
+    width: 17px;
+    height: 17px;
+    padding-top: 1px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #a7abf7;
+    color: #fff;
+    font-size: 10px;
+}
 
 header{
     width: 50%;
